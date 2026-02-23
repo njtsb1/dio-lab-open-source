@@ -147,7 +147,7 @@ searchButton.addEventListener('click', (e) => {
     alert(alertMsg);
     return;
   }
-  const url = `https://github.com/elidianaandrade/dio-lab-open-source/tree/main/community/${encodeURIComponent(searchValue)}.md`;
-  const defaultUrl = 'https://github.com/elidianaandrade/dio-lab-open-source/tree/main/community';
+  const url = `https://github.com/njtsb1/dio-lab-open-source/tree/main/community/${encodeURIComponent(searchValue)}.md`;
+  const defaultUrl = 'https://github.com/njtsb1/dio-lab-open-source/tree/main/community';
   window.open(url, '_blank');
 });
