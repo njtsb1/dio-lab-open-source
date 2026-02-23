@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DIO | Lab Contributing to an Open Source Project on GitHub</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#EAEAEA">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <span class="brand">
+                    <a href="index.html">
+                        <img src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png" alt="DIO logo">
+                        <span><b>OPEN</b>.SOURCE</span>
+                    </a>
+                </span>
+                <ul class="menu-social">
+                    <li class="menu-social__item">
+                        <a title="GitHub" class="menu-social__link" href="https://github.com/digitalinnovationone/dio-lab-open-source" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </li>
+                    <li class="menu-social__item">
+                        <button id="themeToggle" aria-label="Toggle theme" class="menu-social__link" type="button">
+                            <i id="themeIcon" class="bi bi-moon-fill"></i>
+                        </button>
+                    </li>
+                    <li class="menu-social__item">
+                        <select id="langSelect" class="menu-social__link" aria-label="Language selector">
+                            <option value="en-US">EN-US</option>
+                            <option value="pt-BR">PT-BR</option>
+                            <option value="es-ES">ES-ES</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#desafio" class="menu__link" data-i18n="menu.challenge">Challenge</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#comunidade" class="menu__link" data-i18n="menu.community">Community</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#materiais" class="menu__link" data-i18n="menu.materials">Support Materials</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="desafio">
+            <h1 data-i18n="challenge.title">Challenge: Profile README</h1>
+            <p data-i18n="challenge.description">
+                Contribute to the "Community" directory by creating a Profile README containing information about yourself that you want to share with the community. Additionally, you can include links to your project challenges and articles on the <a href="https://www.dio.me/">Digital Innovation One</a> platform.<br>
+                Get inspired by checking the examples in the <a href="https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community">"community"</a> folder, explore some utilities in the <a href="https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils">"utils"</a> folder and use your creativity to build yours 😊💙.
+            </p>
+
+            <h2 data-i18n="instructions.title">Instructions:</h2>
+            <ol>
+                <li>
+                    <p data-i18n="instructions.step1">Fork this repository;</p>
+                </li>
+                <li>
+                    <p data-i18n="instructions.step2">Clone locally <code>git clone https://github.com/<b>YOURUSERNAME</b>/dio-lab-open-source.git</code>;</p>
+                </li>
+                <li>
+                    <p data-i18n="instructions.step3">Add the upstream remote to keep your local repository up to date: <code>git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git</code>. Use the command <code>git pull upstream main</code> to fetch and merge changes into your local repository based on the main branch of the original repository you forked from, or <code>git fetch upstream main</code> to fetch without merging. See more at: <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md">"Getting Started with Git and GitHub"</a>;</p>
+                </li>
+                <li>
+                    <p data-i18n="instructions.step4">Create a new <b>branch</b> and name it <code>feat/community/<b>yourgithubusername</b></code>. Example: <code>feat/community/falvojr</code>;</p>
+                </li>
+                <li>
+                    <p data-i18n="instructions.step5">Inside the <a href="https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community">"community"</a> folder, create a Markdown file (extension <code>.md</code>) and name it with your GitHub username. Example: <code>falvojr.md</code>;</p>
+                </li>
+                <li>
+                    <p data-i18n="instructions.step6">Build your profile. You can view examples in the community folder and add some of the utilities from the <a href="https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils">"utils"</a> folder. <b>Note:</b> Use other examples as inspiration, not as direct copies;</p>
+                </li>
+                <li>
+                    <p data-i18n="instructions.step7">Add your changes to the staging area with the command <code>git add community/<b>yourgithubusername</b>.md</code>;</p>
+                </li>
+                <li>
+                    <p data-i18n="instructions.step8">Create a commit and add a message indicating the addition of your profile: <code>git commit -m"feat: add <b>yourgithubusername</b> profile"</code>;</p>
+                </li>
+                <li>
+                    <p data-i18n="instructions.step9">Push the changes to your remote repository: <code>git push origin feat/community/<b>yourgithubusername</b></code>;</p>
+                </li>
+                <li>
+                    <p data-i18n="instructions.step10">Create a <b>Pull Request</b>.</p>
+                </li>
+            </ol>
+        </main>
+
+        <section id="comunidade">
+            <h2 data-i18n="community.title">Check out profiles created by the community</h2>
+            <p data-i18n="community.description">See all profiles developed by the community at <a href="https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community">dio-lab-open-source/examples</a>, or search for a specific one by typing the username below. <br> Get inspired and make your <a href="https://github.com/digitalinnovationone/dio-lab-open-source/">contribution</a> 😉🚀.</p>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="username" value="falvojr" minlength="3" maxlength="39">
+                <button type="submit" id="searchButton">
+                    <span data-i18n="community.viewProfile">View Profile</span>
+                    <i class="bi bi-github"></i>
+                </button>
+            </form>
+        </section>
+
+        <section id="materiais">
+            <h2 data-i18n="materials.title">Support Materials</h2>
+            <ol>
+                <li>
+                    <a href="" data-i18n="materials.item1">Introduction to the Lab;</a>
+                </li>
+                <li>
+                    <a href="" data-i18n="materials.item2">Ways to Contribute to an Open Source Project;</a>
+                </li>
+                <li>
+                    <a href="" data-i18n="materials.item3">Developing and Submitting a Contribution;</a>
+                </li>
+                <li>
+                    <a href="" data-i18n="materials.item4">Tips and Support Materials.</a>
+                </li>
+            </ol>
+        </section>
+
+        <footer>
+            <p data-i18n="footer.text">Project developed for educational purposes for the lab Contributing to an Open Source Project on GitHub by <a href="https://www.dio.me/">Digital Innovation One</a>. Contribute to the project on <a href="https://github.com/digitalinnovationone/dio-lab-open-source">GitHub</a>.</p>
+        </footer>
+        <script src="scripts.js"></script>
+    </body>
+</html>
