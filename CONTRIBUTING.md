@@ -34,6 +34,7 @@ Go to the repository main page and click the **Fork** button in the top-right co
 ### 2) Clone locally  
 
 Open Git Bash and run `git clone` followed by the URL of your fork to clone it locally. Example:
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/dio-lab-open-source.git
 ```
@@ -44,6 +45,7 @@ Press Enter; a local copy of your fork will be created.
 
 Use `git checkout -b` to create and switch to a new branch named `feat/community/YOUR_USERNAME`.  
 Example:
+
 ```bash
 git checkout -b feat/community/falvojr
 ```
@@ -71,6 +73,7 @@ git add community/YOUR_USERNAME.md
 ### 6) Create a commit  
 
 Commit your change with a message indicating you added your profile:
+
 ```bash
 git commit -m "feat: add YOUR_USERNAME profile"
 ```
@@ -80,6 +83,7 @@ git commit -m "feat: add YOUR_USERNAME profile"
 ### 7) Push your changes to your remote repository  
 
 Push your local branch to your remote fork:
+
 ```bash
 git push origin feat/community/YOUR_USERNAME
 ```
