@@ -2,9 +2,9 @@ Daily learning
 
 # DIO Lab — Contributing to an Open Source Project on GitHub
 
-Projeto desenvolvido no Santander Bootcamp 2023 - Backend Java, com orientação da especialista [Elidiana Andrade](https://github.com/elidianaandrade "Elidiana Andrade"). 
-Aprendendo a contribuir em um Projeto Open Source. 
-Contribuições para o projeto: melhorias na documentação, adição de funcionalidades, correção de bugs e criação de recursos.
+Project developed during the Santander Bootcamp 2023 - Java Backend, under the guidance of specialist [Elidiana Andrade](https://github.com/elidianaandrade "Elidiana Andrade"). 
+Learning to contribute to an Open Source Project. 
+Contributions to the project: improvements to documentation, addition of functionalities, bug fixes, and creation of resources.
 
 ## Overview
 
