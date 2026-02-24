@@ -1,8 +1,8 @@
 # Contributing Guide
 
-[![Star](https://img.shields.io/github/stars/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/stargazers)  
-[![Forks](https://img.shields.io/github/forks/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/forks)  
-[![GitHub Issues](https://img.shields.io/github/issues/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/issues/)
+[![Star](https://img.shields.io/github/stars/njtsb1/dio-lab-open-source?style=social)](https://github.com/njtsb1/dio-lab-open-source/stargazers)  
+[![Forks](https://img.shields.io/github/forks/njtsb1/dio-lab-open-source?style=social)](https://github.com/njtsb1/dio-lab-open-source/forks)  
+[![GitHub Issues](https://img.shields.io/github/issues/njtsb1/dio-lab-open-source?style=social)](https://github.com/njtsb1/dio-lab-open-source/issues/)
 
 > **From the original document:**  
 > This is a project made for the community, so feel free to contribute.
